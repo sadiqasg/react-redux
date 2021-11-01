@@ -1,0 +1,8 @@
+npx create-react-app your-app
+install --save react-redux (binding react & redux) redux (provides the single source of storage)
+import {createStore} from redux in index.js
+create variable store & set it to = createStore(reducer)
+import reducer from your store in index.js
+inmport Provider from react-redux in index.js & wrap <App/> in <Provider store={store}></>
+import {connect} from react-redux in your component
+Create store folder and Reducer.js file in it 
